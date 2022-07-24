@@ -6,13 +6,13 @@
 /*   By: dfallas- <dfallas-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/07/23 17:47:24 by dfallas-          #+#    #+#             */
-/*   Updated: 2022/07/23 19:51:07 by dfallas-         ###   ########.fr       */
+/*   Updated: 2022/07/24 11:14:14 by dfallas-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <unistd.h>
 
-void	ft_putchar(char c)
+void	ft_putchar(char*c)
 {
-	write(1, &c, 1);
+	write(1, c, 1);
 }
